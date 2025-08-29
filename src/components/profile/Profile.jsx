@@ -36,7 +36,7 @@ const Profile = () => {
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
             Tôi là sinh viên Công nghệ Thông tin tại Trường Đại học Mở TP. Hồ Chí Minh,
-            chuyên ngành Kỹ thuật Phần mềm.
+            chuyên ngành Khoa học Máy tính.
           </p>
           <p className="text-base sm:text-xl font-semibold text-black mb-2">
             Mục tiêu nghề nghiệp
