@@ -3,27 +3,27 @@ import Roles from "./Roles";
 const rolesData = [
   {
     id: 1,
-    title: "Frontend Development",
+    title: "Phát triển Frontend",
     description:
-      "ReactJS, Tailwind CSS, JavaScript. Experienced in building responsive UIs, component-based architecture, and state management.",
+      "ReactJS, Tailwind CSS, JavaScript. Có kinh nghiệm xây dựng giao diện người dùng responsive, kiến trúc dựa trên component, và quản lý state.",
   },
   {
     id: 2,
-    title: "Backend Development",
+    title: "Phát triển Backend",
     description:
-      "Java Spring MVC/Spring Boot for building RESTful APIs. Knowledge of authentication, authorization, and working with relational databases.",
+      "Java Spring MVC/Spring Boot để xây dựng RESTful APIs. Có kiến thức về xác thực, phân quyền và làm việc với cơ sở dữ liệu quan hệ.",
   },
   {
     id: 3,
-    title: "Databases & Tools",
+    title: "Cơ sở dữ liệu & Công cụ",
     description:
-      "MySQL, MongoDB. Proficient with Git/GitHub for version control, Postman for API testing, and Docker for containerization.",
+      "MySQL, MongoDB. Thành thạo Git/GitHub để quản lý phiên bản, Postman để kiểm thử API, và Docker để container hóa ứng dụng.",
   },
   {
     id: 4,
-    title: "Other Skills",
+    title: "Kỹ năng khác",
     description:
-      "Understanding of OOP and SOLID principles, teamwork, fast learner, and integrating AI/ML models with Python into web applications.",
+      "Hiểu biết về OOP và nguyên tắc SOLID, làm việc nhóm, khả năng học nhanh, và tích hợp mô hình AI/ML bằng Python vào ứng dụng web.",
   },
 ];
 
@@ -35,33 +35,20 @@ const Profession = () => {
     >
       <div className="flex flex-col justify-between h-fit md:pe-8 lg:pe-35.75 max-md:text-center my-auto">
         <p className="section-title max-md:text-center">
-          Skills & Tech Stack
+          Kỹ năng & Công nghệ
         </p>
 
-        {/* Career Objective */}
+        {/* Kỹ năng */}
         <div className="mt-6 text-[14px]">
-          {/* <p className="text-base sm:text-xl font-semibold text-black mb-2">
-            Career Objective
-          </p>
-          <p className="text-xs sm:text-lg font-normal text-gray-400 mb-6">
-            Aspiring to become a <span className="font-medium text-black">software engineer</span>,
-            I aim to gain hands-on experience before graduation, learn and
-            understand real-world workflows, contribute to company projects,
-            and strive to become a <span className="font-medium text-black">full-time employee</span>.
-          </p> */}
-
-          {/* Skills */}
           <p className="text-base sm:text-xl font-semibold text-black mb-2">
-            Skills & Tech Stack
+            Kỹ năng & Công nghệ
           </p>
           <p className="text-xs sm:text-lg font-normal text-gray-400">
-            Knowledge and experience in full-stack web development, including
-            frontend, backend, databases, and developer tools. Focused on
-            scalability, performance, and clean coding practices.
+            Có kiến thức và kinh nghiệm trong phát triển web full-stack, bao gồm
+            frontend, backend, cơ sở dữ liệu và các công cụ cho lập trình viên.
+            Tập trung vào khả năng mở rộng, hiệu suất và thực hành viết code sạch.
           </p>
         </div>
-
-
       </div>
 
       <div>

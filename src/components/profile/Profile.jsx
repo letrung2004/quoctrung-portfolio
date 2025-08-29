@@ -8,7 +8,7 @@ const Profile = () => {
       id="profile"
     >
       <div className="flex max-md:flex-col justify-between items-center gap-6">
-        {/* Profile image */}
+        {/* Ảnh hồ sơ */}
         <div className="xxl:max-w-106 w-auto h-auto xxl:max-h-126">
           <div className="max-w-106 h-117 object-fill overflow-hidden rounded-xl">
             <img
@@ -29,23 +29,23 @@ const Profile = () => {
 
         <div className="max-sm:w-full w-[33rem]">
           <p className="text-3xl xxs:text-4xl sm:max-xl:text-5xl xl:text-6xl font-semibold w-full">
-            Hello, I’m
+            Xin chào, tôi là
             <span className="text-nowrap shrink-0 inline-block w-full">
-              Le Quoc Trung
+              Lê Quốc Trung
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            I'm a Computer Science student at Ho Chi Minh City Open University,
-            specializing in Software Engineering.
+            Tôi là sinh viên Công nghệ Thông tin tại Trường Đại học Mở TP. Hồ Chí Minh,
+            chuyên ngành Kỹ thuật Phần mềm.
           </p>
           <p className="text-base sm:text-xl font-semibold text-black mb-2">
-            My Career Objective
+            Mục tiêu nghề nghiệp
           </p>
           <p className="text-xs sm:text-lg font-normal text-black-400 mb-6">
-            Aspiring to become a <span className="font-medium text-black">software engineer</span>,
-            I aim to gain hands-on experience before graduation, learn and
-            understand real-world workflows, contribute to company projects,
-            and strive to become a <span className="font-medium text-black">full-time employee</span>.
+            Với mong muốn trở thành một <span className="font-medium text-black">kỹ sư phần mềm</span>,
+            tôi đặt mục tiêu tích lũy kinh nghiệm thực tế trước khi tốt nghiệp, học hỏi và
+            hiểu rõ các quy trình làm việc thực tế, đóng góp vào các dự án của công ty,
+            và phấn đấu trở thành một <span className="font-medium text-black">nhân viên chính thức toàn thời gian</span>.
           </p>
 
         </div>
